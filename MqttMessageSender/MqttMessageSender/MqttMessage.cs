@@ -1,0 +1,13 @@
+﻿namespace MqttMessageSender
+{
+    internal class MqttMessage
+    {
+        public MqttMessage(string topic, string message)
+        {
+            Topic = topic;
+            Message = message;
+        }
+        public string Topic { get; }
+        public string Message { get; }
+    }
+}
